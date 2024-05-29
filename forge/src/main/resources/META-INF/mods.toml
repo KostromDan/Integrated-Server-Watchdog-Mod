@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "integrated_server_watchdog"
 version = "${version}"
 displayName = "Integrated Server Watchdog"
-authors = "Me!"
+authors = "KostromDan"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Watchdog system for integrated Minecraft server
 '''
 #logoFile = ""
 

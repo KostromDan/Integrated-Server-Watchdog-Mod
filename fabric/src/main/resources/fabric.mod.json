@@ -3,9 +3,9 @@
   "id": "integrated_server_watchdog",
   "version": "${version}",
   "name": "Integrated Server Watchdog",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Watchdog system for integrated Minecraft server",
   "authors": [
-    "Me!"
+    "KostromDan"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.kostromdan.mods.integrated_server_watchdog.fabric.ExampleModFabric"
+      "dev.kostromdan.mods.integrated_server_watchdog.fabric.IntegratedServerWatchdogFabric"
     ],
     "client": [
-      "dev.kostromdan.mods.integrated_server_watchdog.fabric.client.ExampleModFabricClient"
+      "dev.kostromdan.mods.integrated_server_watchdog.fabric.client.IntegratedServerWatchdogFabricClient"
     ]
   },
   "mixins": [
