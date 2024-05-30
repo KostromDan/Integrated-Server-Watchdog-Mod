@@ -12,3 +12,5 @@ rootProject.name = 'integrated_server_watchdog'
 include 'common'
 include 'fabric'
 include 'forge'
+include 'annotations'
+

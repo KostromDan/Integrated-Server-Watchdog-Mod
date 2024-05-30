@@ -12,7 +12,19 @@ allprojects {
     group = rootProject.maven_group
     version = rootProject.mod_version
 }
+apply plugin: 'idea'
+idea {
+    module {
+        downloadSources = true
+    }
+}
 
+apply plugin: 'eclipse'
+eclipse {
+    classpath {
+        downloadSources = true
+    }
+}
 subprojects {
     apply plugin: 'dev.architectury.loom'
     apply plugin: 'architectury-plugin'
